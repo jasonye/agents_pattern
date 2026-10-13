@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langchain-community
+langgraph
+langsmith
+langchain-nebius
+langchain-tavily
+python-dotenv
+pydantic
+rich
+ipykernel
+anthropic>=0.40.0
+pygraphviz

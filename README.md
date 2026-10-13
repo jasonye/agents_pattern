@@ -1,0 +1,5 @@
+# pip config list
+
+```
+global.index-url='https://pypi.tuna.tsinghua.edu.cn/simple'
+```
