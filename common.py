@@ -23,7 +23,7 @@ from anthropic import Anthropic
 load_dotenv(override=True)
 
 
-API_KEY = os.environ.get('ANTHROPIC_API_KEY')
+API_KEY = os.environ.get('ANTHROPIC_AUTH_TOKEN')
 API_BASE = os.environ.get('ANTHROPIC_BASE_URL')
 LLM_MODEL = os.environ.get('ANTHROPIC_DEFAULT_SONNET_MODEL')
 

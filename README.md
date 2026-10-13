@@ -17,3 +17,11 @@ https://github.com/FareedKhan-dev/all-agentic-architectures.git
     # "CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY": "1",
     # "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "32000",
     # "DISABLE_TELEMETRY": "1"
+
+# 
+brew install graphviz
+export CFLAGS="-I/opt/homebrew/include"
+export LDFLAGS="-L/opt/homebrew/lib"
+pip install pygraphviz
+
+python -c "import pygraphviz; print(pygraphviz.__version__)"
